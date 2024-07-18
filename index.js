@@ -35,3 +35,4 @@
     }
     document.getElementById("myData").innerHTML = cartona
  }
+ display()
