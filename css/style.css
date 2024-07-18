@@ -1,0 +1,16 @@
+.myBorder {
+    border-color: rgb(150, 0, 0) !important;
+}
+
+.myBorder:hover {
+    border-color: rgb(255, 0, 0) !important;
+}
+.myText{
+    color: rgb(150, 0, 0) !important;
+
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size:3rem;
+}
