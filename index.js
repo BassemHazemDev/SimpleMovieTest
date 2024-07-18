@@ -6,11 +6,10 @@
  //https://api.themoviedb.org/3/trending/movie/day?api_key=bdd10d2b8f52bc0a5320d5c9d88bd1ff
 
  myHttp.addEventListener('readystatechange' , function(){
-    if(myHttp.readyState == 4 && myHttp.status == 200)
-        {
+    
             list = JSON.parse(myHttp.response).results
             display()
-        }
+        
  })
 
  function searchMovie(title){
