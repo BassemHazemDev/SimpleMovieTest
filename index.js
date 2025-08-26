@@ -14,7 +14,8 @@ var myHttp = new XMLHttpRequest();
 
         function searchMovie(title) {
             title = title.replace(":", "").replace("'", "").replace(" ", "+");
-            return `https://asd.quest/find/?find=${title}`;
+            return `https://a.asd.homes/find/?find=${title}`;
+            //https://a.asd.homes/find/?find=hello+world
         }
 
         function display() {
